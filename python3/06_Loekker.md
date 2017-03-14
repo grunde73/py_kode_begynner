@@ -16,9 +16,11 @@
 ## Løkker
 
 
+### while
 
-for og while
+### for
 
 Iterere over lister og ordbøker
 
-Listegeneratorer [i for i in range(3)]
+### Listegeneratorer
+[i for i in range(3)]
