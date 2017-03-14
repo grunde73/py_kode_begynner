@@ -1,3 +1,5 @@
+FIXME: ikke ferdig skrevet
+
 # Valg
 
 ## Du lærer:
