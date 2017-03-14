@@ -1,4 +1,4 @@
-# Lister og "ordbøker"
+# Lister
 
 ## Du lærer:
 * Å lage og bruke lister
