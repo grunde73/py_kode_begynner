@@ -64,7 +64,7 @@ print("Hallo Konnerud Skole!")
 
 ## Oppgaver
 Hver oppgave (assignment) har først en liste med hva du lærer i oppgaven, så kommer oppgavene
-og til slutt forklarer vi det du trenger å lære for å løse oppgaven. 
+og til slutt forklarer vi det du trenger å lære for å løse oppgavene. 
 
 For å gå videre til neste oppgave trykk på "submit".
 
