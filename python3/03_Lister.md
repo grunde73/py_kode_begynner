@@ -16,7 +16,7 @@
 * Skriv ut lista baklengs
 
 ## Lister
-Når vi koder bruker vi data typer og strukturer som finnes i språket, en av
+Når vi koder bruker vi data-typer og strukturer som finnes i språket, en av
 dem vi bruker aller mest er lister. Lister er en ordnet samling av objekter,
 et objekt i lista kaller vi et _element_.
 En liste kan inneholde alle mulige typer objekter, og alle elementene i
