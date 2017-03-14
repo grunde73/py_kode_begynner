@@ -1,8 +1,10 @@
 # Lister
 
 ## Du lærer:
-* Å lage og bruke lister
-* Å lage og bruke "ordbøker"
+* Å lage lister
+* Å legge til og slette elementer i lister
+* Å få tak i enkelt elementer og deler av lister
+* Å bruke noen Python funksjoner for lister
 * Forskjellen på lister og "tupler"
 
 ## Oppgaver:
@@ -87,6 +89,18 @@ siste_elem = lst.pop() # gir siste element i lista og sletter det fra lista
 print(siste_elem)
 
 i = lst.index("futt og fart") # gir index til elemented "futt og fart"
+```
+
+
+## Python tuppel
+I Python har lister en fetter som vi kaller for `tuple`, tupler lager du mer `()`
+og komma istedenfor `[]` og komma.
+```python
+et_tuple = (1, 2, "hei", 14)
+```
+
+Tupler er veldig lik lister, men det er en viktig forskjell, tupler kan _ikke_
+endres når de først er laget.
 
 
 ## Komme videre
