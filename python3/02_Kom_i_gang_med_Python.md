@@ -18,6 +18,9 @@
 * Spør om navnet ditt og lagre svaret i en variabel
 * Skriv ut navnet ditt
 * Print ut hvor mange bokstaver det er i navnet ditt
+* Gjør del 3 i Kodeklubbens
+  [Kuprat](http://oppgaver.kidsakoder.no/python/kuprat/kuprat.html)
+  oppgave
 
 
 ## Noen funksjoner
