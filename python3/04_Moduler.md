@@ -36,7 +36,7 @@ For å se hvilke funksjoner som finnes i en modul kan du bruke `help()`
 funksjonen.
 ```python
 > help(time)
-``
+```
 
 Ofte så har moduler sub-moduler eller enkelt funksjoner eller objekter som vi kan
 ønsker å bruke uten å skrive så mye. Da kan vi bruke kommandoen `from`.
