@@ -81,7 +81,7 @@ print(random.randint(0, 10))
 ```
 
 Modulen har også flere funksjoner for å jobbe med lister
-```pytho`
+```python
 liste = "hei på deg sier jeg til deg".split()
 
 # trekke tilfeldige elementer
