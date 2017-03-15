@@ -5,6 +5,7 @@
 * Å bruke en modul for dato og tid
 * Å buke denne modulen for å sammenligne tidspunkter og å regne ut hvor mange
   dager gammel du er
+* Å bruke en modul for å trekke tilfeldige tall og elementer i en liste
 
 
 ## Oppgaver:
@@ -12,6 +13,7 @@
 * Gjør en pause i koden din med `time.sleep()` funksjonen
 * Bruk datetime modulen til å beregne hvor mange dager det er siden du ble født
 * Finn ut hvor mange timer er det siden du ble født
+* Lag en liste med ord og bruk `random` modulen til å trekke et tilfeldig element
 
 
 ## Moduler
@@ -30,6 +32,12 @@ Etter å ha gjort dette har vi tilgang til funksjoner i den importerte pakken me
 ```python
 time.sleep(1) # progammet tar pause i 1 sekund
 ```
+For å se hvilke funksjoner som finnes i en modul kan du bruke `help()`
+funksjonen.
+```python
+> help(time)
+``
+
 Ofte så har moduler sub-moduler eller enkelt funksjoner eller objekter som vi kan
 ønsker å bruke uten å skrive så mye. Da kan vi bruke kommandoen `from`.
 ```python
@@ -46,10 +54,41 @@ Her brukte vi funksjonen `now()` i `datetime.datetime` modulen.
 
 ## Datetime og tidspunkter
 `datetime` modulen som vi importerte i koden over har flere funksjoner for å holde
-orden på og regne med datoer og tidspunkter.
+orden på og regne med datoer og tidspunkter. Vi kan også finne tidsdifferanser
+med å trekke `datetime` objekter fra hverandre.
+```python
+tid_siden = datetime.now() - datetime(2004, 1, 24)
+print(tid_siden.days)
+``
 
+Du kan begynne å utforske `datetime` med
+```python
+> help(datetime)
+```
 
-JOBBER HER
-## Ekstra utfordring
-* Å bruke en modul for å lese nettsider
-* Bruke en modul for å hente tekst ut av nettsiden du har lest
+## Trekke tilfeldige tall
+Med `random` modulen kan du trekke tilfeldige tall, trekke tilfeldige elementer
+fra lister dette kan du bruke til
+å lage dine egne lotto-rekker, gjøre ting i tilfeldig rekkefølge, og mye mer.
+
+For å trekke et tilfeldig heltall kan du
+```python
+import random
+tilfeldig_tall = random.randint(0, 10) # trekker et tilfeldig tall fra 0 til 10
+print(tilfeldig_tall)
+print(random.randint(0, 10))
+```
+
+Modulen har også flere funksjoner for å jobbe med lister
+```pytho`
+liste = "hei på deg sier jeg til deg".split()
+
+# trekke tilfeldige elementer
+tilf_element = random.choice(liste)
+print(tilf_element)
+tilf_elementer = random.sample(list, 3) # 3 tilfeldige elementer i en ny liste
+print(tilf_elementer)
+
+# stokke om på lista
+print(random.shuffle(liste))
+```

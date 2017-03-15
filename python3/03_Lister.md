@@ -87,6 +87,7 @@ print(lst[:4])
 ```
 Hva skjer når du utelater `start` eller `slutt` indeksen?
 
+
 ## Innebygde funksjoner for lister
 Python har mange funksjoner for å jobbe med lister.
 Her er noen eksempler som dere kan eksperimentere med.
@@ -104,7 +105,7 @@ i = lst.index("futt og fart") # gir index til elemented "futt og fart"
 ```
 
 
-## Python tuppel
+## Python tuple
 I Python har lister en fetter som vi kaller for `tuple`, tupler lager du mer `()`
 og komma istedenfor `[]` og komma.
 ```python
