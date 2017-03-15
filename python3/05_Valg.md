@@ -29,7 +29,8 @@ Denne koden kan deles opp i tre deler.
 `alder > 18` tester om alder-variabelen er større enn 18
 `:` betyr at vi er ferdig med testen vår, og nå kommer koden som skal kjøres hvis testen er sann.
 Innrykket før print sørger for at Python vet at det er denne koden som skal kjøres hvis
-if-setningen er sann.
+if-setningen er sann. Hvis if-setningen ikke er sann, gjør Python i dette tilfellet ikke
+noe mer.
 
 
 ## if, elif og else

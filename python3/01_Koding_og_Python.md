@@ -62,9 +62,26 @@ ved å trykke på "run":
 print("Hallo Konnerud Skole!")
 ```
 
+Hvis poenget er at at du skal skrive en kommando i "repl-vinduet" starter
+linjen med et `>` tegn for å indikere dette. Og noen ganger vil vi også ta
+med hvilket svar du får fra kommandoen, indikert med `=>`.
+```python
+> 1 + 3
+=> 4
+``` 
+Siden datamaskiner er "utrolig dumme" så må koden du skriver være helt riktig skrevet!
+Prøv f.eks.
+```python
+> prnit("dette er en test")
+```
+Slike feil kommer du til å oppleve _mange ganger_, men det er helt OK. Når dette skjer,
+prøv å lese feilmeldingen for å forstå hva som er problemet. Og står du helt fast er
+det bare å spørre!
+
+
 ## Oppgaver
 Hver oppgave (assignment) har først en liste med hva du lærer i oppgaven, så kommer oppgavene
-og til slutt forklarer vi det du trenger å lære for å løse oppgavene. 
+og til slutt forklarer vi det du trenger å lære for å løse oppgavene.
 
 For å gå videre til neste oppgave trykk på "submit".
 
