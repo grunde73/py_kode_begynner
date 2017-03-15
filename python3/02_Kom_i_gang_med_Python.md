@@ -2,6 +2,7 @@
 
 ## Du lærer:
 * Noen Python funksjoner
+* Få hjelp
 * Kommentarer og dokumentasjon i kode
 * Variabler
 * Tall (heltall og flyt-tall)
@@ -42,6 +43,15 @@ navnet_ditt = input("Hva heter du?")
 `dir()` : gir en liste over funksjoner i et objekt eller modul
 ```python
 print(dir(list))
+```
+
+## Få hjelp
+I det interaktive Python konsollet kan du få hjelp og informasjon
+om funksjoner og objekter ved å bruke `help()` funksjonen.
+Prøv f.eks. dette:
+```python
+> help(len)
+> help(print)
 ```
 
 ## Kommentarer
