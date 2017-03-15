@@ -42,6 +42,12 @@ For å lage en liste med heltall kan vi bruke `list()` og
 lst = list(range(10)) # -> [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
+Vi kan også lage lister fra tekst med å bruke `split()`
+funksjonen.
+```python
+en_liste_til = "det er gøy med koding altså".split()
+``
+
 ### Legge til og slette elementer
 For å legge til elementer på slutten av ei liste kan vi bruke
 `lst.append(elm)` funksjonen og for å slette kan vi bruke
@@ -54,6 +60,12 @@ print(lst)
 lst.remove("hei")
 print(lst)
 ```
+Vi kan også legge sammen lister med `+`
+```python
+lst = lst + en_liste + en_liste_til
+print(lst)
+```
+
 
 ### Indekser
 For å få tak i et spesielt element i lista bruker vi nummeret til
