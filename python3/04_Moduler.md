@@ -59,11 +59,12 @@ med å trekke `datetime` objekter fra hverandre.
 ```python
 tid_siden = datetime.now() - datetime(2004, 1, 24)
 print(tid_siden.days)
-``
+```
 
 Du kan begynne å utforske `datetime` med
 ```python
 > help(datetime)
+> print(dir(datetime))
 ```
 
 ## Trekke tilfeldige tall
