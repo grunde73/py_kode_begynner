@@ -13,11 +13,28 @@
 ## Objekter og klasser
 Litt om Python objekter og klasser
 
-Hvordan lage
+### `class`
+```python
+class MinKlasse(object):
+    pass
+```
+En helt tom klasse
 
-__init__ metoden
 
-Lage instans metoder
+### `__init__`
+Fylle objekter med innhold
+```python
+class Bok(object):
+    def __init__(self, tittel, forfatter):
+        self.tittel = tittel
+        self.forfatter = forfatter
+
+emil = Bok(tittel="Emil i Lønneberget", forfatter="Astrid Lindgren")
 
 
-Kode eksempler
+### Instansmetoder
+```python
+
+```
+### Spesialmetoder
+`__repr__()` etc.
