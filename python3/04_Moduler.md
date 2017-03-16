@@ -45,6 +45,13 @@ Ofte så har moduler sub-moduler eller enkelt funksjoner eller objekter som vi k
 from datetime import datetime
 ```
 
+Hvis du synes navnet på en modul du importerer blir for langt,
+eller du er redd for at navnet skal være det samme som en variabel du
+bruker, da kan du gi den ditt eget navn med `as` kommandoen
+```python
+import random as rd
+print(rd.randint(-10, 10))
+```
 
 
 ## Datetime og tidspunkter
