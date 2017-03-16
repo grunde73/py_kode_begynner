@@ -46,7 +46,7 @@ Vi kan også lage lister fra tekst med å bruke `split()`
 funksjonen.
 ```python
 en_liste_til = "det er gøy med koding altså".split()
-``
+```
 
 ### Legge til og slette elementer
 For å legge til elementer på slutten av ei liste kan vi bruke
