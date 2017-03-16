@@ -33,9 +33,10 @@ Etter å ha gjort dette har vi tilgang til funksjoner i den importerte pakken me
 time.sleep(1) # progammet tar pause i 1 sekund
 ```
 For å se hvilke funksjoner som finnes i en modul kan du bruke `help()`
-funksjonen.
+og `dir()` funksjonene.
 ```python
 > help(time)
+> print(dir(time))
 ```
 
 Ofte så har moduler sub-moduler eller enkelt funksjoner eller objekter som vi kan
