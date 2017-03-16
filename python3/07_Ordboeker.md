@@ -1,5 +1,3 @@
-FIXME: Denne er ikke ferdig
-
 # Ordbøker
 
 ## Du lærer:
