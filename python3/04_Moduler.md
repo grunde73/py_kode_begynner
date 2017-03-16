@@ -45,6 +45,12 @@ Ofte så har moduler sub-moduler eller enkelt funksjoner eller objekter som vi k
 from datetime import datetime
 ```
 
+
+
+## Datetime og tidspunkter
+`datetime` modulen som vi importerte i koden over har flere funksjoner for å holde
+orden på og regne med datoer og tidspunkter. 
+
 Når du har laster inn `datetime` modulen kan du finne hvilket tidspunkt nå
 med kommandoen:
 ```python
@@ -52,10 +58,7 @@ naa = datetime.now()
 ```
 Her brukte vi funksjonen `now()` i `datetime.datetime` modulen.
 
-
-## Datetime og tidspunkter
-`datetime` modulen som vi importerte i koden over har flere funksjoner for å holde
-orden på og regne med datoer og tidspunkter. Vi kan også finne tidsdifferanser
+Vi kan også finne tidsdifferanser
 med å trekke `datetime` objekter fra hverandre.
 ```python
 tid_siden = datetime.now() - datetime(2004, 1, 24)
