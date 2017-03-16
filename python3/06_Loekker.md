@@ -8,8 +8,9 @@
 
 ## Oppgaver:
 * Lag en while løkke hvor du skriver ut navnet ditt 23 ganger
-* Lag en for løkke for å skrive ut alle navnene i en liste med navn
-* Bruk en generator til å lage en liste med tall fra 0 til 100
+* Lag en while løkke hvor spør etter navn til brukeren skriver stopp og legger disse navnene til en liste
+* Lag en for løkke for å skrive ut alle navnene du har samlet inn
+* Bruk en generator til å lage en liste med tall fra 0 til 50
 
 
 ## Løkker
