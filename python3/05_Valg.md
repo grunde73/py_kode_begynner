@@ -72,7 +72,7 @@ if valg != 2:
     pass # vi gjør ingenting
 else:
     print("valg var ikke 2 men", valg)
-``
+```
 
 ## Lære mer?
 [If hos Kidsa koder](http://oppgaver.kidsakoder.no/python/if-setninger/if-setninger.html)
