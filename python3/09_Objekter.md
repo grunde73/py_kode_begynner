@@ -30,11 +30,11 @@ class Bok(object):
         self.forfatter = forfatter
 
 emil = Bok(tittel="Emil i Lønneberget", forfatter="Astrid Lindgren")
-
+```
 
 ### Instansmetoder
 ```python
-pass
+
 ```
 ### Spesialmetoder
 `__repr__()` etc.
